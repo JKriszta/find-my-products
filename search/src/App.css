@@ -1,0 +1,26 @@
+.App{
+position: relative;
+margin: 15px;
+}
+
+.head{
+    font-size: 50px;
+    text-align: center;
+    
+}
+.search{
+position: absolute;
+margin: 5px;
+border-radius: 2px;
+right: 20px;
+}
+
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+    top: 15px;
+}
+
+
+
