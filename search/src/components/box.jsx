@@ -11,9 +11,7 @@ function box({setSearch, search}) {
 		words.rating.toString().includes(search)))
 	  })
 
-    
-
-	return (
+	  return (
 		<div className="box">
 			{list.map((e, index)=> (
             <Card key={index} title={e.title} type={e.type} description={e.description} filename={e.filename} price={e.price} rating={e.rating}/>))}

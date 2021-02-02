@@ -1,58 +1,68 @@
-.cardContainer{
-    text-align: center;
-    border: 2px solid rgb(35, 11, 143);
-    border-radius: 5px;
-    margin: 15px;
-    padding: 5px;
-    width: 30%;
-    height: 350px;
-    display: grid;
-    grid-template-columns: 2fr 0.5fr 0.5fr;
-    grid-template-rows: 0.5fr 2.5fr 0.5fr 0.5fr;
-    grid-template-areas:
-    "title icon rate"
-    "image image image"
-    "description description description"
-    "price price price";
-
+.cardContainer {
+	text-align: center;
+	border: 2px solid rgb(35, 11, 143);
+	border-radius: 5px;
+	margin: 15px;
+	padding: 5px;
+	width: 20%;
+	height: 350px;
+	display: grid;
+	grid-template-columns: 2fr 0.5fr 0.5fr;
+	grid-template-rows: 0.5fr 2.5fr 0.5fr 0.5fr;
+	grid-template-areas:
+		"title icon rate"
+		"image image image"
+		"description description description"
+		"price price price";
 }
-.filename { grid-area: image; }
-.icon { grid-area: icon; }
-.title { grid-area: title; }
-.rate { grid-area: rate; }
-.price { grid-area: price; }
-.description { grid-area: description; }
-.icon{
-    display: flex;
-    margin: 5px;
-    width: 30px;
-    height: 30px;
+.filename {
+	grid-area: image;
 }
-
-.filename{
-    display: grid;
-    margin: 0;
-    width: 150px;
-    height: 150px;
+.icon {
+	grid-area: icon;
 }
-
-.rating{
-    color: rgb(214, 194, 8);
+.title {
+	grid-area: title;
 }
-
- 
-.title{
-    margin: 0;
-    font-size: 20px;
+.rate {
+	grid-area: rate;
+}
+.price {
+	grid-area: price;
+}
+.description {
+	grid-area: description;
+}
+.icon {
+	display: flex;
+	margin: 5px;
+	width: 30px;
+	height: 30px;
 }
 
-.price{
-    font-size: 15px;
-    margin: 0;
+.filename {
+	display: grid;
+	margin: 0;
+	width: 150px;
+	height: 150px;
 }
 
-.description{
-    border: 1px solid rgb(35, 11, 143);
-    border-radius: 2px;
-margin: 5px;
+.rating {
+	color: rgb(214, 194, 8);
+}
+
+.title {
+	margin: 0;
+	font-size: 20px;
+}
+
+.price {
+	font-size: 15px;
+	margin: 0;
+}
+
+.description {
+	border: 1px solid rgb(35, 11, 143);
+	border-radius: 2px;
+	margin: 5px;
 }
